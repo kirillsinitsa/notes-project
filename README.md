@@ -1,24 +1,5 @@
-# README
+# THE NOTES PROJECT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The idea is create a handy notepad for storing records or notes.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Link with other information: https://trello.com/b/a7az1G1s/notes-project
