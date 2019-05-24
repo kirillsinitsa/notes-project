@@ -3,7 +3,7 @@ language: ruby
 rvm:
   - 2.6.3
 
-cache: bundler
+cache: bundler -v 2.0.1
 
 before_install:
   - gem update --system
