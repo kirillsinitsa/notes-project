@@ -1,5 +1,5 @@
 AllCops:
- Excludes:
+  Excludes:
   - bin/update
   - app/helpers/application_helper.rb
   - app/mailers/application_mailer.rb
@@ -8,3 +8,7 @@ AllCops:
   - test/test_helper.rb
   - bin/setup
   - vendor/bundle/**/*
+  - db/seeds.rb
+  - config/spring.rb
+  - bin/yarn
+  - Gemfile
