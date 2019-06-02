@@ -12,5 +12,5 @@ before_install:
   - gem install bundler -v 2.0.1
 
 script:
-  - bundle exec rspec
-  - bundle exec rubocop
+  - rspec
+  - rubocop
