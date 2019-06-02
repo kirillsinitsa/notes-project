@@ -1,5 +1,5 @@
 AllCops:
-   Excludes:
+ Excludes:
   - bin/update
   - app/helpers/application_helper.rb
   - app/mailers/application_mailer.rb
@@ -7,7 +7,3 @@ AllCops:
   - config/application.rb
   - test/test_helper.rb
   - bin/setup
-
-require:
-  - rubocop-rails
-  - rubocop-rspec
