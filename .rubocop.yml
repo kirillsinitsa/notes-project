@@ -8,3 +8,6 @@ AllCops:
   - test/test_helper.rb
   - bin/setup
 
+require:
+  - rubocop-rails
+  - rubocop-rspec
