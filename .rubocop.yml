@@ -7,3 +7,4 @@ AllCops:
   - config/application.rb
   - test/test_helper.rb
   - bin/setup
+  - vendor/bundle/**/*
