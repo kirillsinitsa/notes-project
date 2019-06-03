@@ -1,24 +1,13 @@
-# README
+# THE NOTES PROJECT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The idea is create a handy tool for storing memos.
 
-Things you may want to cover:
+More info: https://trello.com/b/a7az1G1s/notes-project
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Our team:
+ * Alexey (captain of team)
+ * Alekseychik Egor
+ * Minchuk Tanya
+ * Razmanov Alexey
+ * Sinitsa Kirill
+ * Terentieva Elena
