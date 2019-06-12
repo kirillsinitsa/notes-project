@@ -3,7 +3,7 @@ class User < ApplicationRecord
   before_save { self.email = email.downcase }
   has_many :categories, dependent: :destroy
   validates :name, presence: true, length: { maximum: 50 }
-  VALID_EMAIL_REGEX = (/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i).freeze
+  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i.freeze
   validates :email, presence: true, length: { maximum: 100 },
                     format: { with: VALID_EMAIL_REGEX },
                     uniqueness: { case_sensitive: false }
@@ -27,7 +27,7 @@ class User < ApplicationRecord
 
   # Remembers a user in the database for use in persistent sessions.
   def remember
-    self.remember_token = self.new_token
+    self.remember_token = new_token
     update_attribute(:remember_digest, User.digest(remember_token))
   end
 
