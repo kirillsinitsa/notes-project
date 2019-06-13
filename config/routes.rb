@@ -14,6 +14,6 @@ Rails.application.routes.draw do
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
   resources :users
-  resources :categories, only: %i[create destroy]
+  resources :categories
   resources :notes
 end
