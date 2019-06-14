@@ -1,7 +1,7 @@
 <% provide(:title, @category.name) %>
 <div class="row">
   <div class="col-md-8">
-    <% if @category.subcategories.any? %>
+    <% if @categories %>
       <h3>Categories (<%= @category.subcategories.count %>)</h3>
       <ol class="categories">
         <%= render @categories%>
