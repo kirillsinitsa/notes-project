@@ -7,7 +7,7 @@ ruby '2.6.3'
 
 # Custom gems
 gem 'reek', '~> 5.4'
-gem 'rspec', '~> 3.8'
+gem 'rspec', '~> 3.8.1'
 gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
 gem 'rubocop', '~> 0.70.0'
 
