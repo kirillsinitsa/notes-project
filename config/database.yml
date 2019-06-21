@@ -4,15 +4,14 @@
 # gem 'pg'
 #
 default: &default
-
-development:
   adapter: postgresql
   encoding: unicode
-  database: notes_project_development
   pool: 5
-  username: dbadmin
-  password: DBAdmin
   timeout: 5000
+
+development:
+  <<: *default
+  database: notes_project_development
  
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -23,10 +22,6 @@ test:
 
 production:
   <<: *default
-  adapter: postgresql
-  encoding: unicode
   database: notes_project_test
-  pool: 5
   username: dbadmin
-  password: DBAdmin
-  timeout: 5000
+  password: <%= ENV['NOTES_DB_PASSWORD'] %>
