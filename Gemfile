@@ -16,10 +16,11 @@ gem 'rails', '~> 5.2.3'
 <<<<<<< HEAD
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
-=======
->>>>>>> 24f7f28d7c7d7b0e159dff676a8969fdb85d1719
 # Use postgresql as the database for Active Record
 gem 'pg'
+=======
+>>>>>>> 24f7f28d7c7d7b0e159dff676a8969fdb85d1719
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
